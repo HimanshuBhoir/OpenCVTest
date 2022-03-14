@@ -1,4 +1,4 @@
-from turtle import color
+# from turtle import color
 import cv2
 
 cap = cv2.VideoCapture(0)
