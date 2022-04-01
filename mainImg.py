@@ -1,7 +1,7 @@
 # from turtle import color
 import cv2
 
-img = cv2.imread('img.png')
+img = cv2.imread('img_6.png')
 
 classNames = []
 classFile = 'coco.names'
@@ -29,5 +29,5 @@ if len(classIds) != 0:
 
 
 
-cv2.imshow('output', img)
+cv2.imshow('Result', img)
 cv2.waitKey(0)
